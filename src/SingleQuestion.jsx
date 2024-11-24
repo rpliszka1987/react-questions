@@ -8,7 +8,7 @@ const SingleQuestion = ({ title, info }) => {
       <header>
         <h5>{title}</h5>
       </header>
-      <p>{info}</p>
+      {showInfo && <p>{info}</p>}
     </article>
   );
 };
