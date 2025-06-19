@@ -6,7 +6,7 @@ const SingleQuestion = ({ title, info }) => {
   return (
     <article className="question">
       <header>
-        <h5>{title}</h5>
+        <h5>{title} name</h5>
       </header>
       {showInfo && <p>{info}</p>}
     </article>
